@@ -1,0 +1,1 @@
+{"access_token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "token_type": "Bearer", "expires_in": 3600, "scope": "user-read-currently-playing", "expires_at": xxxxxxx, "refresh_token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"}

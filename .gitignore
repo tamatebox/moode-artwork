@@ -1,0 +1,4 @@
+./src/.env
+./src/.sp_cache
+./img/empty/*jpg
+.DS_Store
