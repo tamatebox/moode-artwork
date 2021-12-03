@@ -70,7 +70,8 @@ cp -r rpi-rgb-led-matrix/* flaschen-taschen/server/rgb-matrix
 ```
 
 #### output on the terminal
-*　It is recommended to try it out in a terminal before the production environment
+* It is recommended to try it out in a terminal before the production environment
+
 ```
 cd flaschen-taschen/server
 make FT_BACKEND=terminal
