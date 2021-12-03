@@ -22,11 +22,13 @@ Bash script for the [Moode audio player](https://moodeaudio.org) to send now pla
 ### On Moode audio
 
 #### Basic
-* turn on the metadata file for moode settings
-* put images in moode/img/empty to show the image when no music is playing
-* edit MAINDIR and COVERNAME at moode/src/mpd_cover.sh to suit your environment
+1. turn on the metadata file for moode settings
+2. put images in moode/img/empty to show the image when no music is playing
+3. edit MAINDIR and COVERNAME at moode/src/mpd_cover.sh to suit your environment
 * MAINDIR stands for music directory on your own mpd and COVERNAME stands for basic cover art name
-* run as bellow
+4. edit SENDDIR at moode/src/send_cover.sh to suit your environment
+* SENDDIR stands for local adrres of the aspberry pi with led matrix
+5. run as bellow
 ```
 source gen_env.sh
 cd moode/src
@@ -34,7 +36,7 @@ source run.sh
 ```
 
 #### With AirPlay
-* edit /etc/shairport-sync.conf as bellow
+1. edit /etc/shairport-sync.conf as bellow
 
 ```
 metadata =
@@ -47,16 +49,16 @@ metadata =
 };
 
 ```
-* restart shairport-sync as bellow
+2. restart shairport-sync as bellow
 
 ```
 sudo systemctl restart shairport-sync
 ```
 
 #### With Spotify
-* Register [Spotify Developers](https://developer.spotify.com/dashboard)
-* make /moode/src/.env file based on /moode/src/env.sample
-* make /moode/src/.sp_cache file based on /moode/src/sp_cache.sample
+1. Register [Spotify Developers](https://developer.spotify.com/dashboard)
+2. make moode/src/.env file based on moode/src/env.sample
+3. make moode/src/.sp_cache file based on moode/src/sp_cache.sample
 
 
 ### On Rspberry pi with led matrix
@@ -87,3 +89,9 @@ source cover.sh stop # when stop
 ```
 sudo ./flaschen-taschen/server/ft-server --led-slowdown-gpio=2 --led-rows=64 --led-cols=64 --led-show-refresh --led-brightness=50
 ```
+
+## Anything Else
+* moode/src/send-image/moode are complied send-image from [flaschen-taschen/client](https://github.com/hzeller/flaschen-taschen/tree/master/client)
+* by changing RESOLUTION in moode/src/send_cover.sh, you can change the resolution of the output image
+* moode/txt/spotify.txt stands for the mode that is currently being played ans moode/txt/prev_song.txx stands for the artist-album that is currently being played
+
