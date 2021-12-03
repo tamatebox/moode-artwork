@@ -1,6 +1,6 @@
 # moode-artwork
 
-Bash script for the [Moode audio player](https://moodeaudio.org) to send now playing album artwork to a running flaschen-taschen server. In my case, this allows displaying live album art from  on a 64x64 rgb led matrix connected to my raspberry pi.
+Bash script for the [Moode audio player](https://moodeaudio.org) to send now playing album artwork to a running flaschen-taschen server. In my case, this allows displaying live album art from MPD, Spotify and AirPlay on a 64x64 rgb led matrix connected to my raspberry pi.
 
 ## Notes
 
