@@ -1,2 +1,0 @@
-file=Spotify Active
-outrate=16 bit, 44.1 kHz, Stereo, 1.411 Mbps
