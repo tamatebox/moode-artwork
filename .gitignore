@@ -1,4 +1,4 @@
-./src/.env
-./src/.sp_cache
-./img/empty/*jpg
+moode/src/.env
+moode/src/.sp_cache
+moode/img/empty/*jpg
 .DS_Store
