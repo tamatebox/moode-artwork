@@ -7,9 +7,11 @@ Bash script for the [Moode audio player](https://moodeaudio.org) to send now pla
 * send-image is from the [flaschen-tachen](https://github.com/hzeller/flaschen-taschen) project and was compiled in a unix environment
 * This project was inspired by [kylejohnsonkj](https://github.com/kylejohnsonkj/ft-artwork) The majority of the credit goes to him, thank you!
 
-![IMG_3660](https://user-images.githubusercontent.com/44140593/144626235-ea49755d-fc43-42f6-8c8b-6dcccf33043c.jpg)
+![IMG_3660](https://user-images.githubusercontent.com/44140593/144626779-cf315b5a-a372-4f92-a864-1aeb8ddb8ce2.jpg)
+
 
 ## Requirement
+
 
 - Moode audio
 - Rspberry pi installed [flaschen-taschen](https://github.com/hzeller/flaschen-taschen) and [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix)
