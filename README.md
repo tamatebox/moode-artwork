@@ -15,7 +15,7 @@ Bash script for the [Moode audio player](https://moodeaudio.org) to send now pla
 
 - Moode audio
 - Rspberry pi installed [flaschen-taschen](https://github.com/hzeller/flaschen-taschen) and [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix)
-- 64x64 Led matrix (size is any if you want)
+- HUB75 64x64 Led matrix (size is any if you want)
 
 ## Installation
 
